@@ -1,0 +1,47 @@
+<html>
+    <head> <title>Calculator</title>
+        <link rel="stylesheet" href="cal.css" type="text/css">
+     </head>
+    <body>
+        
+        
+        <form name="c">
+        <table class="calculator" >
+            <tr>
+              <td colspan="3">
+                <input type="text" id="result" name="disp" size="40" disabled/> </td>
+            <td> <input type="button" value="Clear" onclick="c.disp.value=''"id="bt2"> </td>
+                <tr>
+                   
+                    <td> <input type="button" value="1" onclick="c.disp.value +='1'"id="bt1" /> </td>
+                    <td> <input type="button" value="2" onclick="c.disp.value +='2' "id="bt1"> </td>
+                    <td> <input type="button" value="3" onclick="c.disp.value +='3' "id="bt1"/> </td>
+                    <td> <input type="button" value="/" onclick="c.disp.value +='/' "id="bt2"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="4" onclick="c.disp.value +='4'" id="bt1" /> </td>
+                    <td> <input type="button" value="5" onclick="c.disp.value +='5'" id="bt1"/> </td>
+                    <td> <input type="button" value="6" onclick="c.disp.value +='6'" id="bt1"/> </td>
+                    <td> <input type="button" value="-" onclick="c.disp.value +='-'" id="bt2"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="7" onclick="c.disp.value +='7'"id="bt1"/> </td>
+                    <td> <input type="button" value="8" onclick="c.disp.value +='8'" id="bt1"/> </td>
+                    <td> <input type="button" value="9" onclick="c.disp.value +='9'" id="bt1"/> </td>
+                    <td> <input type="button" value="+" onclick="c.disp.value +='+'" id="bt2"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="." onclick="c.disp.value +='.'"id="bt1"/> </td>
+                    <td> <input type="button" value="0" onclick="c.disp.value +='0'"id="bt1"/> </td>
+                    <td> <input type="button" value="=" onclick="c.disp.value =eval(c.disp.value)"id="btn" /> </td>
+                    <td> <input type="button" value="*" onclick="c.disp.value +='*'" id="bt2"/> </td>
+         
+           
+        </tr>
+    </table>  
+    </form>
+    </body>
+ 
+ 
+</html>
+ 
